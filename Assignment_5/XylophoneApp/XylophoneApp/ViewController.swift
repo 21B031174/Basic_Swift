@@ -23,9 +23,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var ButtonG: UIButton!
     
     @IBAction func SoundA(_ sender: UIButton) {
+        print("work")
         if let soundURL = URL(string: "/Users/elsanarsen/Desktop/Swift/Basic_Swift/Assignment _5/XylophoneApp/XylophoneApp/Assets.xcassets/A.wav") {
             audioPlayer = try? AVAudioPlayer(contentsOf: soundURL)
             audioPlayer?.play()
+        } else{
+            print("not work")
         }
     }
     @IBAction func SoundB(_ sender: UIButton) {
@@ -42,6 +45,7 @@ class ViewController: UIViewController {
     }
     @IBAction func SoundD(_ sender: UIButton) {
         if let soundURL = URL(string: "/Users/elsanarsen/Desktop/Swift/Basic_Swift/Assignment _5/XylophoneApp/XylophoneApp/Assets.xcassets/D.wav") {
+            print("")
             audioPlayer = try? AVAudioPlayer(contentsOf: soundURL)
             audioPlayer?.play()
         }
@@ -66,3 +70,4 @@ class ViewController: UIViewController {
     }
 }
 
+// Bundle.main.url(forResource: "A", withExtension: "wav") не работает!!!

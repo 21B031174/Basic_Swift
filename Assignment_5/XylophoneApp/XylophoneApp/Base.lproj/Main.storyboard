@@ -16,14 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="kTv-8K-LiH">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="kTv-8K-LiH">
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7h-gl-pyI">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="70"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="5BU-k7-ejB"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="C">
                                             <backgroundConfiguration key="background">
@@ -36,10 +33,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njZ-NX-cTO">
-                                        <rect key="frame" x="0.0" y="110" width="393" height="70"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="ywB-Ts-WmD"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="110" width="393" height="99.666666666666686"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="D">
                                             <backgroundConfiguration key="background">
@@ -52,10 +46,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZIn-9p-8NJ">
-                                        <rect key="frame" x="0.0" y="220" width="393" height="70"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="fgt-rd-CZD"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="219.66666666666669" width="393" height="100"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="E">
                                             <backgroundConfiguration key="background">
@@ -68,10 +59,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bH3-hS-cjg">
-                                        <rect key="frame" x="0.0" y="330" width="393" height="70"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="Je7-Ds-aix"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="329.66666666666669" width="393" height="99.666666666666686"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="F">
                                             <backgroundConfiguration key="background">
@@ -84,7 +72,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zdn-BA-3gH">
-                                        <rect key="frame" x="0.0" y="440" width="393" height="99"/>
+                                        <rect key="frame" x="0.0" y="439.33333333333331" width="393" height="99.999999999999943"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="G">
                                             <backgroundConfiguration key="background">
@@ -97,10 +85,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gkO-7F-Dhd">
-                                        <rect key="frame" x="0.0" y="579" width="393" height="70"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="0jx-vh-6kB"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="549.33333333333337" width="393" height="99.666666666666629"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="A">
                                             <backgroundConfiguration key="background">
@@ -113,10 +98,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2j-0n-Zau">
-                                        <rect key="frame" x="0.0" y="689" width="393" height="70"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="EWS-Wa-pQs"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="659" width="393" height="100"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="B">
                                             <backgroundConfiguration key="background">

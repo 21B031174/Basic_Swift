@@ -41,7 +41,7 @@ class ViewController: UIViewController {
     
     func startTimer(eggType: String) {
         timer?.invalidate()
-        totalTime = eggTimes[eggType]! * 1
+        totalTime = eggTimes[eggType]! * 60
         secondsPassed = 0
         progressBar.progress = 0.0
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTimer), userInfo: nil, repeats: true)
