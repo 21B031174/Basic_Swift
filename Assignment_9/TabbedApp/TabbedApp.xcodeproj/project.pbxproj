@@ -48,15 +48,15 @@
 		8C8CAB6B2CEFC4E000E01206 /* BooksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
 		8C8CAB6C2CEFC4E000E01206 /* FavoriteItemProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteItemProtocol.swift; sourceTree = "<group>"; };
 		8C8CAB6F2CEFC4EA00E01206 /* MusicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicsViewController.swift; sourceTree = "<group>"; };
-		8CE72F432CE685340056B084 /* TabbedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TabbedApp.app; path = "/Users/elsanarsen/Desktop/Swift/Basic_Swift/Assignment_9/TabbedApp/build/Debug-iphoneos/TabbedApp.app"; sourceTree = "<absolute>"; };
+		8C8CABAF2CF0463A00E01206 /* TabbedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8CABB02CF0463A00E01206 /* TabbedAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TabbedAppTests.xctest; path = "/Users/elsanarsen/Desktop/Swift/Basic_Swift/Assignment_9/TabbedApp/build/Debug-iphoneos/TabbedAppTests.xctest"; sourceTree = "<absolute>"; };
+		8C8CABB12CF0463A00E01206 /* TabbedAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TabbedAppUITests.xctest; path = "/Users/elsanarsen/Desktop/Swift/Basic_Swift/Assignment_9/TabbedApp/build/Debug-iphoneos/TabbedAppUITests.xctest"; sourceTree = "<absolute>"; };
 		8CE72F462CE685340056B084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CE72F4D2CE685340056B084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CE72F4F2CE685350056B084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CE72F522CE685350056B084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CE72F542CE685350056B084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CE72F592CE685350056B084 /* TabbedAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TabbedAppTests.xctest; path = "/Users/elsanarsen/Desktop/Swift/Basic_Swift/Assignment_9/TabbedApp/build/Debug-iphoneos/TabbedAppTests.xctest"; sourceTree = "<absolute>"; };
 		8CE72F5D2CE685350056B084 /* TabbedAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedAppTests.swift; sourceTree = "<group>"; };
-		8CE72F632CE685350056B084 /* TabbedAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TabbedAppUITests.xctest; path = "/Users/elsanarsen/Desktop/Swift/Basic_Swift/Assignment_9/TabbedApp/build/Debug-iphoneos/TabbedAppUITests.xctest"; sourceTree = "<absolute>"; };
 		8CE72F672CE685350056B084 /* TabbedAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedAppUITests.swift; sourceTree = "<group>"; };
 		8CE72F692CE685350056B084 /* TabbedAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,20 +86,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8C8CAB662CEFC46400E01206 /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Recovered References";
-			sourceTree = "<group>";
-		};
 		8CE72F3A2CE685340056B084 = {
 			isa = PBXGroup;
 			children = (
 				8CE72F452CE685340056B084 /* TabbedApp */,
 				8CE72F5C2CE685350056B084 /* TabbedAppTests */,
 				8CE72F662CE685350056B084 /* TabbedAppUITests */,
-				8C8CAB662CEFC46400E01206 /* Recovered References */,
+				8C8CABAF2CF0463A00E01206 /* TabbedApp.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,7 +149,7 @@
 			);
 			name = TabbedApp;
 			productName = TabbedApp;
-			productReference = 8CE72F432CE685340056B084 /* TabbedApp.app */;
+			productReference = 8C8CABAF2CF0463A00E01206 /* TabbedApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8CE72F582CE685350056B084 /* TabbedAppTests */ = {
@@ -174,7 +167,7 @@
 			);
 			name = TabbedAppTests;
 			productName = TabbedAppTests;
-			productReference = 8CE72F592CE685350056B084 /* TabbedAppTests.xctest */;
+			productReference = 8C8CABB02CF0463A00E01206 /* TabbedAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		8CE72F622CE685350056B084 /* TabbedAppUITests */ = {
@@ -192,7 +185,7 @@
 			);
 			name = TabbedAppUITests;
 			productName = TabbedAppUITests;
-			productReference = 8CE72F632CE685350056B084 /* TabbedAppUITests.xctest */;
+			productReference = 8C8CABB12CF0463A00E01206 /* TabbedAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
